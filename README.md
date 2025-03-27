@@ -1,10 +1,10 @@
-#SHA3-256 Implementation
+**SHA3-256 Implementation**
 
-#Overview
+**Overview******
 
 This project implements the SHA3-256 cryptographic hash function in Verilog. SHA3-256 is a part of the SHA-3 family, based on the Keccak algorithm, and produces a 256-bit hash output from an arbitrary-length input. This implementation is designed for FPGA acceleration and integration with RISC-V architectures.
 
-#Features
+**Features**
 
 Implements the SHA3-256 hashing algorithm based on the Keccak sponge construction.
 
@@ -16,8 +16,7 @@ Compatible with FPGA-based cryptographic accelerators.
 
 Designed for integration with the Wishbone protocol for RISC-V systems.
 
-#Project Structure
-
+**Project Structure**
 SHA3-256/
 │-- src/                   # Verilog source files
 │   │-- sha3_256.sv        # Top-level SHA3-256 module
@@ -35,10 +34,8 @@ SHA3-256/
 │-- docs/                  # Documentation and design notes
 │-- README.md              # Project documentation
 
-#Installation & Usage
-
-#Prerequisites
-
+**Installation & Usage**
+**Prerequisites**
 Verilog/SystemVerilog simulator (e.g., ModelSim, Verilator, Icarus Verilog)
 
 FPGA toolchain (e.g., Yosys, Quartus, Vivado for synthesis)
